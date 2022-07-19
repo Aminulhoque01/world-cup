@@ -1,0 +1,149 @@
+/* ------------google fonts------------ */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Oswald&family=Poppins:wght@700&family=Splash&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* -------------header style------------------ */
+.header{
+    Width:90%;
+    Height:590px;
+    background-color: #161616;
+    margin:0px auto;
+    border-radius: 20px;;
+    
+}
+.top-wraper{
+    display: flex;
+    
+}
+
+.title{
+    Width:531px;
+    Height:424px;
+    padding:5%;
+    color:#ffffff;
+}
+.title h1{
+    font-size: 70px;
+    line-height: 80px;
+    margin-bottom: 2px;
+}
+.title p{
+    size:16px;
+    line height:26px;
+    margin-bottom:7%;
+}
+.red-btn{
+    background-color: #DD0000;
+    text-decoration: none;
+    padding:10px 20px;
+    color:#ffffff;
+    border-radius:5px;
+   
+}
+.red-btn:hover{
+    background-color: rgb(0, 183, 255);
+    color:black;
+}
+
+.arrow{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.banar-image{
+    Width:581px;
+    Height:613px;
+    padding:3%;
+}
+.banar-image img{
+    width:100%;
+}
+/* ----------------header end---------------- */
+
+/* ----------------------------------
+        mobaile responsive
+--------------- -----------------*/
+
+@media only screen and (max-width: 600px) {
+    .top-wraper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header{
+        Width:360px;
+        Height: 560px;
+    }
+    .title{
+        Width:258px;
+        Height:178px;
+    }
+    .title h1{
+        Width:228px;
+        Height:66px;
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .title p{
+        Width:258px;
+        Height:80px;
+        font-size: 14px;
+        line-height:24px;
+        margin-bottom: 23%;
+    }
+
+    .red-btn{
+        width: 161px;
+        height: 40px;
+        
+    }
+     
+    .banar-image{
+        Width:233px;
+        Height:350px;
+        margin-top: 25%;
+    }
+}
+
+/* ---------------------------
+        tablet responsive
+--------------------------- */
+@media only screen and (min-width:601px) and (max-width:1000px){
+    
+
+    .header{
+        Width:734px;
+        Height: 398px;
+    }
+    .title{
+        Width:316px;
+        Height:276px;
+        padding:5%;
+    }
+    .title h1{
+        Width:289px;
+        Height:150px;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .title p{
+        Width:316px;
+        Height:48px;
+        font-size: 14px;
+        line-height:24px;
+        margin-bottom: 20%;
+    }
+
+    .red-btn{
+        width: 161px;
+         height: 48px;
+        
+    }
+     
+    .banar-image{
+        Width:350px;
+        Height:380px;
+    }
+}
