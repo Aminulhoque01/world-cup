@@ -5,6 +5,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 /* -------------header style------------------ */
@@ -53,6 +54,7 @@ body{
 .arrow{
     font-size: 20px;
     margin-left: 10px;
+    
 }
 .banar-image{
     Width:581px;
@@ -218,13 +220,69 @@ span{
    
 }
 /* -------------------------upcoming style--------------------------- */
-.chanel{
+
+
+.chanel-bar{
+	background-color:black;
+    border-radius:20px;
+	Width:312px;
+    
+    
+}
+.chanel-bar li {
+    padding:4%;
+	list-style:none;
+}
+
+
+.chanel-bar li a{
+    font-size:22px;
+	color:black;
+	text-decoration:none;
+	font-weight:400px;
+	line-height: 22px;
+    
+}
+
+.chanal-1{
+	
+	border:1px solid white;
+	
+	background:white;
+	border-radius:10px;
+	text-align:center;
+}
+
+.chanal-2{
+	
+	border:1px solid white;
+	margin-top:15%;
+	background:white;
+	border-radius:10px;
+	text-align:center;
+    margin-bottom: 15%;
+}
+
+
+.chanal-3{
+	
+	border:1px solid red;
+	margin-bottom:5%;
+	background:red;
+	border-radius:25px;
+	text-align:center;
+	
+}
+
+
+
+ .chanel-1{
     
     border:5px solid green;
-    border-radius:20px;
-    background-color: #ffffff;
-    height: 50px; 
-    margin-bottom: 10%;
+    background:white;
+	border-radius:10px;
+	text-align:center;
+    
 }
 
 .chanel a{
@@ -234,12 +292,13 @@ span{
     font-size: 12px;
     font-weight: 900;
     
-    
-}
+
+}  
+
 .game-side{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap:5%;
+    grid-gap:3%;
 }
 .image-wrap{
     display:flex;
@@ -254,6 +313,7 @@ span{
     border:1px solid #ddd;
     padding:10px;
     border-radius:10px;
+    margin: 10px;
 }
 .image-bar{
     padding-top:10%;
@@ -328,7 +388,7 @@ span{
     text-align: center;
     
 }
-.icone-box{
+.icone{
     color: #00acee;
     font-size: 25px;
     text-align: center;
@@ -336,10 +396,10 @@ span{
     
 }
 
-.fa-icone{
+ .fa-icone{
     color:#00acee;
+    
 }
-
 
 /* ----------------------------------
         mobaile responsive
@@ -395,7 +455,7 @@ span{
         Width:375px;
         Height:2847px;
         margin: auto;
-        margin-left: 7%;
+        margin-left: 16%;
         padding-bottom: 52%;
     }
     .contain-wraper{
@@ -405,7 +465,7 @@ span{
     }
     .chanel-bar{
         Width:290px;
-        Height:222px;
+        Height:253px;
         margin-bottom:20px;
         margin-top:0px
     }
@@ -469,13 +529,14 @@ span{
         
     }
 
-    .icone-box{
+    .icone{
         
         font-size: 25px;
         text-align: center;
         display: block;
         margin-right: 234px;
         padding-top: 17px;
+        display: block;
     }
     
 }
@@ -522,11 +583,15 @@ span{
         Width:350px;
         Height:380px;
     }
+    .banar-image img {
+        width: 100%;
+        height: 99%;
+    }
     .container{
         padding-top:10%;
         width:90%;
         margin: auto;
-        margin-left: 70px;
+        margin-left: 7px;
     }
 
     .contain-wraper{
@@ -534,20 +599,26 @@ span{
         flex-direction:column;
         
     }
+    .main{
+        overflow: hidden;
+    }
     .chanel-bar{
-       display: grid;
-       grid-template-columns: repeat(3,1fr);
-       Height:100%;
+        Height:100%;
        Width:100%;
-       margin-right:50px;
-       margin-left: -42px;
-        
+    }
+    .chanale-wrap{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-content: center;
+        align-items: baseline
 
     }
     .game-bar{
         display:grid;
         grid-template-columns: repeat(2,1fr);
         grid-gap:2%;
+        justify-items: center;
+        margin-left:50px;
     }
     .game-side{
         display: grid;
