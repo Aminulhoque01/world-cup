@@ -123,20 +123,21 @@ body{
 
 .chanel-3 {
     
-    border:2px solid aliceblue;
+    border:2px solid #DD0000;
     border-radius:20px;
-    background-color: #ffffff;
+    background-color: #DD0000;
     height: 50px; 
     margin-bottom: 10%;
 }
 
 .chanel-3 a{
     text-decoration: none;
-    color:black;
+    color:#ffffff;
     margin: 20%;
     font-size: 20px;
     font-weight: 900;
     
+    padding:10px 20px;
     
 }
 /* ----------------------------- */
@@ -217,6 +218,24 @@ span{
    
 }
 /* -------------------------upcoming style--------------------------- */
+.chanel{
+    
+    border:5px solid green;
+    border-radius:20px;
+    background-color: #ffffff;
+    height: 50px; 
+    margin-bottom: 10%;
+}
+
+.chanel a{
+    text-decoration: none;
+    color:black;
+    margin:2%;
+    font-size: 12px;
+    font-weight: 900;
+    
+    
+}
 .game-side{
     display: grid;
     grid-template-columns: repeat(3,1fr);
