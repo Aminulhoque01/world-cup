@@ -428,8 +428,13 @@ span{
         flex-direction: column;
        
     }
+    .footer-text{
+        width:50%;
+       
+    }
+    .footer-text h1{
 
-    
+    }
     
     .single-box{
         color:#ffffff;
