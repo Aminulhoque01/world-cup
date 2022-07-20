@@ -201,7 +201,7 @@ span{
 }
 .down-btn{
     margin:10%; 
-    /* margin-left: 800px; */
+    
     margin-bottom: 0px;
     padding-bottom: 0px;
     display: none;
@@ -213,7 +213,7 @@ span{
     padding:10px 20px;
     color:#ffffff;
     border-radius:5px;
-    /* margin-top:10%; */
+   
     
    
 }
@@ -321,7 +321,17 @@ span{
     text-align: center;
     
 }
+.icone-box{
+    color: #00acee;
+    font-size: 25px;
+    text-align: center;
+    display: none;
+    
+}
 
+.fa-icone{
+    color:#00acee;
+}
 
 
 /* ----------------------------------
@@ -441,11 +451,18 @@ span{
         font-size: 20px;
         margin-right: 0px;
         
-        /* text-align: center; */
+       
         
     }
 
-
+    .icone-box{
+        
+        font-size: 25px;
+        text-align: center;
+        display: block;
+        margin-right: 234px;
+        padding-top: 17px;
+    }
     
 }
 
