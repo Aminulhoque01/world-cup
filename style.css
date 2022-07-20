@@ -284,6 +284,12 @@ span{
     color: #4D4D4D;
     
 }
+.footer-area{
+    background-color: #161616;
+    margin-top:15%;
+    height:550px;
+    
+}
 /* -------------------container end----------------------- */
 
 /* ---------------------footer style------------------------- */
@@ -292,12 +298,7 @@ span{
     margin-top:15%;
     height:500px
 }
-.footer-area{
-    background-color: #161616;
-    width:600px;
-    height:550px;
-    margin-top: -350%;
-}
+
 .footer-text{
     color:#ffffff;
     text-align: center;
