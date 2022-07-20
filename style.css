@@ -413,10 +413,10 @@ span{
  /* ----------------footer style--------------- */
     .footer{
         background-color: #161616;
-        margin-top:35%;
-        width:700px;
+        width:600px;
         height:550px;
         margin-top:375%;
+        
         
     }
 
@@ -426,6 +426,7 @@ span{
         display: flex;
         justify-content: center;
         flex-direction: column;
+       
     }
 
 
