@@ -411,7 +411,7 @@ span{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         grid-gap:2%;
-        justify-items: end;
+        
     }
     .game{
         Width:312px;
@@ -428,6 +428,13 @@ span{
         margin-top:375%;
         
         
+    }
+
+    .footer-area{
+        background-color: #161616;
+        width:600px;
+        height:550px;
+        margin-top: -350%;
     }
 
     .footer-contain{
